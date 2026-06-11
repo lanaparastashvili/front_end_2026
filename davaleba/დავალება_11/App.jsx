@@ -18,17 +18,18 @@ const objectValue = {
 export const App = () => {
   return (
     <div style={{ padding: '20px', fontFamily: 'Arial, sans-serif' }}>
+      <p><strong>კომპონენტები:</strong> UI-ის პატარა ნაწილებია React-ში.</p>
 
       <H1Component />
       <InputComponent />
       <ParagraphComponent />
 
-      <h2>Data Demonstration</h2>
+      <h2>მონაცემები</h2>
       <p><strong>Number:</strong> {numberValue}</p>
-      <p><strong>Array:</strong> {JSON.stringify(arrayValue)}</p>
+      <p><strong>Array:</strong> {arrayValue.join(', ')}</p>
       <p><strong>String:</strong> {stringValue}</p>
-      <p><strong>Function Output:</strong> {greet('სამომხმარებელო')}</p>
-      <p><strong>Object:</strong> {JSON.stringify(objectValue, null, 2)}</p>
+      <p><strong>Function Output:</strong> {greet('მეგობარო')}</p>
+      <p><strong>Object:</strong> {objectValue.name}, {objectValue.version}</p>
     </div>
   );
 };
