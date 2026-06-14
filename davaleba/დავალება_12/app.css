@@ -1,0 +1,13 @@
+.admin-card {
+  background: gold;
+  border: 2px solid orange;
+  padding: 10px;
+  margin: 10px;
+}
+
+.user-card {
+  background: lightblue;
+  border: 1px solid gray;
+  padding: 10px;
+  margin: 10px;
+}
