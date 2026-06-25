@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import FaqItem from './FaqItem'
+import styles from './FaqList.module.css'
 
 const faqs = [
   {
@@ -32,8 +33,8 @@ function FaqList() {
   }
 
   return (
-    <div>
-      <h1 style={styles.title}>FAQ</h1>
+    <div className={styles.wrapper}>
+      <h1 className={styles.title}>FAQ</h1>
 
       {faqs.map((faq, index) => (
         <FaqItem
@@ -46,16 +47,6 @@ function FaqList() {
       ))}
     </div>
   )
-}
-
-const styles = {
-  title: {
-    fontSize: '28px',
-    fontWeight: '700',
-    color: '#1a1a2e',
-    marginBottom: '20px',
-    
-  },
 }
 
 export default FaqList
