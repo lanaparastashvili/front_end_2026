@@ -1,0 +1,209 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: system-ui, sans-serif;
+  background: #f0f0f0;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title{
+  position: relative;
+  left: -230px;
+  top: 350px;
+  width: 236px;
+  height: 116px;
+  font-weight: 700;
+  font-style: bold;
+  font-size: 96px;
+  color: #007FDB;
+}
+.app {
+  padding: 1rem;
+}
+
+
+.card {
+  position: relative;
+  top:0px;
+  left: 400px;
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 430px;
+  height: 636px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+
+.hero {
+  height: 202px;
+  background-image: url(assets/beckground.png);
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding: 14px;
+}
+
+.hero-time {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.hero-date {
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.hero-clock {
+  font-size: 40px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 1;
+}
+
+
+.input-row {
+  position: relative;
+  left:-14px;
+  top: 15px;
+  display: flex;
+  gap: 11px;
+  padding: 10px 25px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.note-input {
+
+
+  flex: 1;
+  width: 275px;
+  border-radius: 5px;
+  height: 49px;
+  border: 1px solid #e5e7eb;
+  padding: 0 40px;
+  font-size: 14px;
+  outline: none;
+  background: #f9fafb;
+}
+.input-icon{
+  position: relative;
+  left: 45px;
+}
+
+.note-input:focus {
+  border-color: #1db87a;
+}
+
+.add-btn {
+  width: 45px;
+  height: 45px;
+  top: 3px;
+  border-radius: 10px;
+  background: #1db87a;
+  border: none;
+  color: #fff;
+  font-size: 22px;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.add-btn:hover {
+  background: #18a36b;
+}
+
+/* Task list */
+.task-list {
+position: relative;
+  top: 20px;
+  padding-bottom: 10px;
+}
+
+.task-item {
+  display: flex;
+  align-items: center;
+  padding: 15px 14px;
+  border-bottom: 1px solid #f5f5f5;
+  gap: 10px;
+}
+
+.task-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.task-title {
+  font-size: 15px;
+  font-weight: 500;
+  color: #111;
+}
+
+/* შესრულებული დავალება - გადახაზული */
+.task-title.done {
+  text-decoration: line-through;
+  color: #aaa;
+}
+
+.task-time {
+  font-size: 12px;
+  color: #aaa;
+  margin-top: 2px;
+}
+
+.task-actions {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.check-btn {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  border: 2px solid #1db87a;
+  background: none;
+  cursor: pointer;
+  font-size: 13px;
+  color: #1db87a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.check-btn.checked {
+  background: #1db87a;
+  color: #fff;
+}
+
+.delete-btn {
+  width: 26px;
+  height: 26px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 16px;
+  color: #e24b4a;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.delete-btn:hover {
+  background: #fce8e8;
+}
+
+.empty-text {
+  text-align: center;
+  padding: 2rem;
+  color: #aaa;
+  font-size: 14px;
+}
