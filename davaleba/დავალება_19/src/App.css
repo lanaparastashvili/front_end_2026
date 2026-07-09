@@ -360,7 +360,6 @@
 .add-to-cart:hover {
   background: var(--color-orange-dark);
 }
-/* ---------- Lightbox Modal ---------- */
 .lightbox-overlay {
   position: fixed;
   top: 0;
@@ -395,7 +394,6 @@
   opacity: 0.8;
 }
 
-/* ---------- Cart Dropdown ---------- */
 .cart-dropdown {
   position: absolute;
   top: 150%;
