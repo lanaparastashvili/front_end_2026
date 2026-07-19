@@ -23,11 +23,11 @@ export default function Footer() {
     <footer className="border-t border-white/10 bg-ink">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         {/* Main row */}
-        <div className="flex items-center justify-between py-4">
+        <div className="flex flex-col gap-6 py-6 lg:flex-row lg:items-start lg:justify-between">
           {/* Left: Logo + nav */}
-          <div className="flex items-center gap-6">
+          <div className="flex flex-col gap-4 md:flex-row md:items-center md:gap-6">
             <Logo />
-            <nav className="flex items-center gap-5">
+            <nav className="flex flex-wrap items-center gap-5">
               {navLinks.map((link) => (
                 <a
                   key={link}
@@ -53,6 +53,28 @@ export default function Footer() {
               </a>
             ))}
           </div>
+        </div>
+
+        <div className="grid gap-6 border-t border-white/10 py-6 md:grid-cols-3">
+          {footerColumns.map(({ heading, links }) => (
+            <div key={heading}>
+              <h3 className="mb-3 font-display text-[11px] font-semibold uppercase tracking-[0.2em] text-white/70">
+                {heading}
+              </h3>
+              <ul className="space-y-2">
+                {links.map(({ label, href }) => (
+                  <li key={label}>
+                    <a
+                      href={href}
+                      className="text-sm text-white/50 transition-colors hover:text-white"
+                    >
+                      {label}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ))}
         </div>
 
         {/* Copyright row */}
