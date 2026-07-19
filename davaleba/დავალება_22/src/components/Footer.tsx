@@ -1,5 +1,4 @@
 import Logo from "./Logo";
-import { footerColumns } from "../data/siteData";
 import {
   TwitchIcon,
   InstagramIcon,
@@ -55,34 +54,8 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="grid gap-6 border-t border-white/10 py-6 md:grid-cols-3">
-          {footerColumns.map(({ heading, links }) => (
-            <div key={heading}>
-              <h3 className="mb-3 font-display text-[11px] font-semibold uppercase tracking-[0.2em] text-white/70">
-                {heading}
-              </h3>
-              <ul className="space-y-2">
-                {links.map(({ label, href }) => (
-                  <li key={label}>
-                    <a
-                      href={href}
-                      className="text-sm text-white/50 transition-colors hover:text-white"
-                    >
-                      {label}
-                    </a>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          ))}
-        </div>
 
-        {/* Copyright row */}
-        <div className="border-t border-white/10 py-2">
-          <p className="text-[10px] text-white/30">
-            ©2022 Rockstar Games Inc. — YWF Studio
-          </p>
-        </div>
+        
       </div>
     </footer>
   );
