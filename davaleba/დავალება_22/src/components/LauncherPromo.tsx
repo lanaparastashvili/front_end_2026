@@ -3,7 +3,7 @@ import nine from "../assets/nine.png";
 
 
 
-const nowAvailable = ["Red Dead Redemption 2", "Grand Theft Auto V"];
+
 
 export default function LauncherPromo() {
   return (
@@ -16,17 +16,6 @@ export default function LauncherPromo() {
         alt="Launcher"
         className="w-full h-auto rounded-xl"
       />
-
-      <div className="mt-5 flex flex-wrap gap-3">
-        {nowAvailable.map((game) => (
-          <span
-            key={game}
-            className="rounded-full border border-white/10 bg-white/5 px-3 py-1 text-xs font-medium text-white/80"
-          >
-            {game}
-          </span>
-        ))}
-      </div>
     </section>
   );
 }

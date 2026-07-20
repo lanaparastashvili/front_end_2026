@@ -1,4 +1,5 @@
 import Logo from "./Logo";
+
 import {
   TwitchIcon,
   InstagramIcon,
@@ -22,11 +23,11 @@ export default function Footer() {
     <footer className="border-t border-white/10 bg-ink">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         {/* Main row */}
-        <div className="flex flex-col gap-6 py-6 lg:flex-row lg:items-start lg:justify-between">
+        <div className="flex items-center justify-between py-4">
           {/* Left: Logo + nav */}
-          <div className="flex flex-col gap-4 md:flex-row md:items-center md:gap-6">
+          <div className="flex items-center gap-6">
             <Logo />
-            <nav className="flex flex-wrap items-center gap-5">
+            <nav className="flex items-center gap-5">
               {navLinks.map((link) => (
                 <a
                   key={link}
@@ -54,8 +55,12 @@ export default function Footer() {
           </div>
         </div>
 
-
-        
+        {/* Copyright row */}
+        <div className="border-t border-white/10 py-2">
+          <p className="text-[10px] text-white/30">
+            ©2022 Rockstar Games Inc. — YWF Studio
+          </p>
+        </div>
       </div>
     </footer>
   );
