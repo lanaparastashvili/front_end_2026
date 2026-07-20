@@ -1,4 +1,4 @@
-import nine from "../assets/nine.png";
+import nine from "../assets/nine.jpg";
 
 
 
