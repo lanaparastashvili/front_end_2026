@@ -1,11 +1,11 @@
 import type { NavLink, GameItem, NewsItem, FooterColumn } from "../types";
 
 // Assets – imported by number order
-import two from "../assets/two.svg";
-import three from "../assets/three.svg";
-import four from "../assets/four.svg";
-import five from "../assets/five.svg";
-import six from "../assets/six.svg";
+import two from "../assets/two.jpg";
+import three from "../assets/three.jpg";
+import four from "../assets/four.jpg";
+import five from "../assets/five.jpg";
+import six from "../assets/six.jpg";
 import seven from "../assets/seven.png";
 import eight from "../assets/eight.jpg";
 

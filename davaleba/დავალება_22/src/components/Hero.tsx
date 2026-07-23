@@ -1,4 +1,4 @@
-import six from "../assets/six.svg";
+import six from "../assets/six.jpg";
 
 export default function Hero() {
   return (
