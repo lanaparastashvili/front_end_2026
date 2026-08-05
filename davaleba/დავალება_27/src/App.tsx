@@ -83,7 +83,11 @@ const Hero = () => (
          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[450px] h-[450px] bg-brand-orange rounded-full z-10 ml-8 mt-8"></div>
          
          <div className="absolute top-[12%] left-[10%] w-[220px] h-[220px] rounded-full overflow-hidden border-4 border-brand-dark z-20 shadow-2xl drop-shadow-2xl bg-brand-dark flex items-center justify-center">
-           <img src="https:
+           <img
+             src="https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=800&q=80"
+             alt="Fresh bread"
+             className="w-full h-full object-cover"
+           />
          </div>
          
          <svg className="absolute top-[15%] right-[5%] w-64 h-32 stroke-brand-beige opacity-80 z-20" fill="none" strokeWidth="2">
@@ -141,7 +145,11 @@ const About = () => (
          
          <div className="absolute top-10 left-0 w-[60%] h-[60%] bg-brand-dark z-10"></div>
          <div className="absolute bottom-0 right-10 w-[60%] h-[60%] bg-gray-300 z-20 shadow-xl flex items-center justify-center overflow-hidden">
-             <img src="https:
+             <img
+               src="https://images.unsplash.com/photo-1608198093002-ad4e005484ec?auto=format&fit=crop&w=800&q=80"
+               alt="Bakery pastries"
+               className="w-full h-full object-cover"
+             />
          </div>
       </motion.div>
       
@@ -268,7 +276,11 @@ const Products = () => (
     >
       <motion.div variants={fadeInUp} className="lg:col-span-1 bg-gray-400 flex flex-col relative group overflow-hidden min-h-[500px]">
         <div className="absolute inset-0 bg-gray-400">
-           <img src="https:
+           <img
+             src="https://images.unsplash.com/photo-1549931319-a545749fcd16?auto=format&fit=crop&w=800&q=80"
+             alt="Homemade bread"
+             className="w-full h-full object-cover"
+           />
         </div>
         <div className="relative z-10 flex-1 flex flex-col justify-end p-8 text-brand-light">
           <p className="text-[10px] tracking-widest uppercase font-bold mb-2">Bakery</p>
@@ -280,10 +292,10 @@ const Products = () => (
 
       <div className="lg:col-span-2 grid grid-cols-1 sm:grid-cols-2 gap-6">
         {[
-          { cat: "Bakery", title: "Bread", price: "$5", img: "https:
-          { cat: "Pastry", title: "Cupcake", price: "$3", img: "https:
-          { cat: "Sweet", title: "Biscuits", price: "$2", img: "https:
-          { cat: "Pastry", title: "Brioche", price: "$5", img: "https:
+          { cat: "Bakery", title: "Bread", price: "$5", img: "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=600&q=80" },
+          { cat: "Pastry", title: "Cupcake", price: "$3", img: "https://images.unsplash.com/photo-1587668178277-295251f900ce?auto=format&fit=crop&w=600&q=80" },
+          { cat: "Sweet", title: "Biscuits", price: "$2", img: "https://images.unsplash.com/photo-1499636136210-6f4ee915583e?auto=format&fit=crop&w=600&q=80" },
+          { cat: "Pastry", title: "Brioche", price: "$5", img: "https://images.unsplash.com/photo-1509365465985-25d11c17e812?auto=format&fit=crop&w=600&q=80" },
         ].map((item, i) => (
           <motion.div key={i} variants={fadeInUp} className="bg-brand-light flex flex-col h-[300px] overflow-hidden group hover:-translate-y-1 transition-transform">
             <div className="h-[60%] bg-gray-300 w-full relative overflow-hidden">
@@ -351,7 +363,11 @@ const Recipes = () => (
     <motion.div variants={staggerContainer} initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-100px" }} className="grid grid-cols-1 lg:grid-cols-3 gap-6 relative z-10">
       <motion.div variants={fadeInUp} className="lg:col-span-1 bg-brand-light text-brand-dark flex flex-col h-[500px] group overflow-hidden">
         <div className="h-[60%] bg-gray-400 w-full relative overflow-hidden">
-           <img src="https:
+           <img
+             src="https://images.unsplash.com/photo-1568254183919-78a4f43a2877?auto=format&fit=crop&w=800&q=80"
+             alt="Delicious bread"
+             className="w-full h-full object-cover"
+           />
         </div>
         <div className="h-[40%] p-8 flex flex-col justify-center relative bg-brand-light z-10">
           <p className="text-[10px] tracking-widest uppercase font-bold text-brand-dark/50 mb-2">Bakery</p>
@@ -365,10 +381,10 @@ const Recipes = () => (
 
       <div className="lg:col-span-2 grid grid-cols-1 sm:grid-cols-2 gap-6">
         {[
-          { cat: "Bakery", title: "Malted wheat flake bread", time: "10 min", img: "https:
-          { cat: "Bakery", title: "Biscoff cake with lotus biscuits", time: "7 min", img: "https:
-          { cat: "Bakery", title: "Peanut butter and chocolate cake", time: "5 min", img: "https:
-          { cat: "Bakery", title: "Malted wheat flake bread", time: "15 min", img: "https:
+          { cat: "Bakery", title: "Malted wheat flake bread", time: "10 min", img: "https://images.unsplash.com/photo-1533089860892-a7c6f0a88666?auto=format&fit=crop&w=600&q=80" },
+          { cat: "Bakery", title: "Biscoff cake with lotus biscuits", time: "7 min", img: "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=600&q=80" },
+          { cat: "Bakery", title: "Peanut butter and chocolate cake", time: "5 min", img: "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?auto=format&fit=crop&w=600&q=80" },
+          { cat: "Bakery", title: "Malted wheat flake bread", time: "15 min", img: "https://images.unsplash.com/photo-1585478259715-4d3f1c2f5b91?auto=format&fit=crop&w=600&q=80" },
         ].map((item, i) => (
           <motion.div key={i} variants={fadeInUp} className="bg-brand-light text-brand-dark flex flex-col h-[240px] group overflow-hidden hover:-translate-y-1 transition-transform">
             <div className="h-[55%] bg-gray-300 w-full relative overflow-hidden">
@@ -436,7 +452,11 @@ const TeamAndTestimonials = () => (
            <path d="M0,50 Q40,10 80,50 T160,50" />
         </svg>
         <div className="w-[80%] h-full bg-brand-light z-10 shadow-2xl relative overflow-hidden">
-           <img src="https:
+           <img
+             src="https://images.unsplash.com/photo-1556910103-1c02745aae4d?auto=format&fit=crop&w=800&q=80"
+             alt="Professional baker"
+             className="w-full h-full object-cover"
+           />
         </div>
       </motion.div>
     </div>
@@ -489,7 +509,11 @@ const Contact = () => (
            <path d="M0,50 Q40,10 80,50 T160,50" />
         </svg>
         <div className="w-full h-[90%] mt-[10%] bg-brand-light z-10 shadow-2xl relative overflow-hidden">
-           <img src="https:
+           <img
+             src="https://images.unsplash.com/photo-1517433670267-08bbd4be890f?auto=format&fit=crop&w=800&q=80"
+             alt="Bakery storefront"
+             className="w-full h-full object-cover"
+           />
         </div>
       </motion.div>
       
