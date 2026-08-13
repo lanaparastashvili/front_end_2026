@@ -1,0 +1,33 @@
+{
+  "trending": [
+    { "title": "Beyond Earth", "type": "Movie", "year": 2019, "rating": "PG", "image": "image1.png" },
+    { "title": "Bottom Gear", "type": "Movie", "year": 2021, "rating": "PG", "image": "image2.png" },
+    { "title": "Undiscovered Cities", "type": "TV Series", "year": 2019, "rating": "E", "image": "image3.png" }
+  ],
+  "recommended_for_you": [
+    { "title": "The Great Lands", "type": "Movie", "year": 2019, "rating": "PG", "image": "image4.png" },
+    { "title": "The Diary", "type": "TV Series", "year": 2019, "rating": "PG", "image": "image5.png" },
+    { "title": "Earth's Untouched", "type": "Movie", "year": 2017, "rating": "18+", "image": "image6.png" },
+    { "title": "No Land Beyond", "type": "Movie", "year": 2019, "rating": "E", "image": "image7.png" },
+    { "title": "During The Hunt", "type": "TV Series", "year": 2016, "rating": "PG", "image": "image8.png" },
+    { "title": "Autosport The Series", "type": "TV Series", "year": 2016, "rating": "PG", "image": "image9.png" },
+    { "title": "Same Answer II", "type": "Movie", "year": 2017, "rating": "E", "image": "image10.png" },
+    { "title": "Below Echo", "type": "TV Series", "year": 2016, "rating": "PG", "image": "image11.png" },
+    { "title": "The Rockies", "type": "TV Series", "year": 2015, "rating": "E", "image": "image12.png" },
+    { "title": "Relentless", "type": "Movie", "year": 2017, "rating": "PG", "image": "image13.png" },
+    { "title": "Community of Ours", "type": "TV Series", "year": 2018, "rating": "18+", "image": "image14.png" },
+    { "title": "Van Life", "type": "Movie", "year": 2015, "rating": "PG", "image": "image15.png" },
+    { "title": "The Heiress", "type": "Movie", "year": 2021, "rating": "PG", "image": "image16.png" },
+    { "title": "Off the Track", "type": "Movie", "year": 2017, "rating": "18+", "image": "image17.png" },
+    { "title": "Whispering Hill", "type": "Movie", "year": 2017, "rating": "E", "image": "image19.png" },
+    { "title": "112", "type": "TV Series", "year": 2013, "rating": "PG", "image": "image20.png" },
+    { "title": "Lone Heart", "type": "Movie", "year": 2017, "rating": "E", "image": "image21.png" },
+    { "title": "Production Line", "type": "TV Series", "year": 2018, "rating": "PG", "image": "image22.png" },
+    { "title": "Dogs", "type": "TV Series", "year": 2016, "rating": "E", "image": "image23.png" },
+    { "title": "Asia in 24 Days", "type": "TV Series", "year": 2020, "rating": "PG", "image": "image24.png" },
+    { "title": "The Tasty Tour", "type": "TV Series", "year": 2016, "rating": "PG", "image": "image25.png" },
+    { "title": "Darker", "type": "Movie", "year": 2017, "rating": "18+", "image": "image26.png" },
+    { "title": "Unresolved Cases", "type": "TV Series", "year": 2018, "rating": "18+", "image": "image27.png" },
+    { "title": "Mission: Saturn", "type": "Movie", "year": 2017, "rating": "PG", "image": "image28.png" }
+  ]
+}
