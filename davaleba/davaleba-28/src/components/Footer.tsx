@@ -1,6 +1,5 @@
 import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
-import metertmete from '../assets/metertmete.png'
 
 const FacebookIcon = () => (
   <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
