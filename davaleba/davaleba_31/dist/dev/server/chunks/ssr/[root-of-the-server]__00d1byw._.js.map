@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 10, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/Administrator/front_end_2026-1/davaleba/davaleba_31/app/contact/page.tsx"],"sourcesContent":["export default function Contact() {\n  return (\n    <div className=\"flex flex-col items-center justify-center min-h-[60vh] text-center space-y-4\">\n      <h1 className=\"text-4xl font-bold text-white\">Contact Us</h1>\n      <p className=\"text-slate-400 max-w-md\">\n        Get in touch with us if you have any questions or feedback.\n      </p>\n    </div>\n  );\n}\n\n"],"names":["Contact","className"],"mappings":";;;;;;AAAe,SAASA;IACtB,qBACE,8OAAC;QAAIC,WAAU;;0BACb,8OAAC;gBAAGA,WAAU;0BAAgC;;;;;;0BAC9C,8OAAC;gBAAEA,WAAU;0BAA0B;;;;;;;;;;;;AAK7C"}},
+    {"offset": {"line": 54, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/Administrator/front_end_2026-1/davaleba/davaleba_31/app/favicon.ico.mjs%20(structured%20image%20object)"],"sourcesContent":["import src from \"IMAGE\";\nexport default { src, width: 256, height: 256 }\n"],"names":["src","width","height"],"mappings":";;;;AAAA;;uCACe;IAAEA,KAAAA,mIAAG;IAAEC,OAAO;IAAKC,QAAQ;AAAI"}}]
+}
