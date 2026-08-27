@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="pgbg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#18181b"/>
+      <stop offset="100%" stop-color="#09090b"/>
+    </linearGradient>
+    <linearGradient id="btn-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4EE1A0"/>
+      <stop offset="100%" stop-color="#22c55e"/>
+    </linearGradient>
+    <linearGradient id="bar-strong" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4EE1A0"/>
+      <stop offset="100%" stop-color="#22c55e"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#pgbg)"/>
+
+  <!-- Central Card -->
+  <rect x="170" y="50" width="460" height="400" rx="16" fill="#1c1c1f" stroke="#3f3f46" stroke-width="1.5"/>
+
+  <!-- Title -->
+  <text x="400" y="105" fill="#ffffff" font-family="sans-serif" font-size="24" font-weight="bold" text-anchor="middle">Password Generator</text>
+
+  <!-- Generated Password Display -->
+  <rect x="210" y="125" width="380" height="55" rx="10" fill="#09090b" stroke="#3f3f46" stroke-width="1"/>
+  <!-- Dots & chars simulating password -->
+  <text x="250" y="158" fill="#4EE1A0" font-family="monospace" font-size="20" font-weight="bold" letter-spacing="6">Tr@#9mPk!aQ2</text>
+  <text x="565" y="158" fill="#4EE1A0" font-family="sans-serif" font-size="20" text-anchor="middle">⎘</text>
+
+  <!-- Strength Meter -->
+  <text x="210" y="207" fill="#9ca3af" font-family="sans-serif" font-size="13">Password Strength</text>
+  <text x="590" y="207" fill="#4EE1A0" font-family="sans-serif" font-size="13" text-anchor="end" font-weight="bold">STRONG</text>
+  <rect x="210" y="215" width="380" height="8" rx="4" fill="#27272a"/>
+  <rect x="210" y="215" width="300" height="8" rx="4" fill="url(#bar-strong)"/>
+
+  <!-- Character Length Slider -->
+  <text x="210" y="260" fill="#ffffff" font-family="sans-serif" font-size="14">Character Length</text>
+  <text x="590" y="260" fill="#4EE1A0" font-family="sans-serif" font-size="20" font-weight="bold" text-anchor="end">14</text>
+  <rect x="210" y="270" width="380" height="6" rx="3" fill="#27272a"/>
+  <rect x="210" y="270" width="240" height="6" rx="3" fill="#4EE1A0"/>
+  <circle cx="450" cy="273" r="10" fill="#4EE1A0" stroke="#18181b" stroke-width="2"/>
+
+  <!-- Checkboxes -->
+  <g transform="translate(210, 295)">
+    <!-- Row 1 -->
+    <rect x="0" y="0" width="16" height="16" rx="4" fill="#4EE1A0"/>
+    <text x="6" y="12" fill="#18181b" font-family="sans-serif" font-size="11" font-weight="bold" text-anchor="middle">✓</text>
+    <text x="26" y="12" fill="#ffffff" font-family="sans-serif" font-size="14">Include Uppercase Letters</text>
+
+    <rect x="200" y="0" width="16" height="16" rx="4" fill="#4EE1A0"/>
+    <text x="206" y="12" fill="#18181b" font-family="sans-serif" font-size="11" font-weight="bold" text-anchor="middle">✓</text>
+    <text x="226" y="12" fill="#ffffff" font-family="sans-serif" font-size="14">Include Numbers</text>
+
+    <!-- Row 2 -->
+    <rect x="0" y="30" width="16" height="16" rx="4" fill="#4EE1A0"/>
+    <text x="6" y="42" fill="#18181b" font-family="sans-serif" font-size="11" font-weight="bold" text-anchor="middle">✓</text>
+    <text x="26" y="42" fill="#ffffff" font-family="sans-serif" font-size="14">Include Lowercase Letters</text>
+
+    <rect x="200" y="30" width="16" height="16" rx="4" fill="#27272a" stroke="#3f3f46" stroke-width="1.5"/>
+    <text x="226" y="42" fill="#71717a" font-family="sans-serif" font-size="14">Include Symbols</text>
+  </g>
+
+  <!-- Generate Button -->
+  <rect x="210" y="380" width="380" height="48" rx="10" fill="url(#btn-grad)"/>
+  <text x="400" y="409" fill="#18181b" font-family="sans-serif" font-size="16" font-weight="bold" text-anchor="middle">GENERATE PASSWORD  →</text>
+</svg>
