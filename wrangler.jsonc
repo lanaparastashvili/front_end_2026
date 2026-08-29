@@ -1,0 +1,16 @@
+{
+    "$schema": "node_modules/wrangler/config-schema.json",
+    "name": "davaleba-34",
+    "main": ".open-next/worker.js",
+    "compatibility_date": "2026-08-29",
+    "compatibility_flags": [
+        "nodejs_compat"
+    ],
+    "assets": {
+        "binding": "ASSETS",
+        "directory": ".open-next/assets"
+    },
+    "images": {
+        "binding": "IMAGES"
+    }
+}
