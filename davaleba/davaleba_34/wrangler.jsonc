@@ -2,7 +2,7 @@
     "$schema": "node_modules/wrangler/config-schema.json",
     "name": "davaleba-34",
     "main": ".open-next/worker.js",
-    "compatibility_date": "2026-08-27",
+    "compatibility_date": "2026-08-29",
     "compatibility_flags": [
         "nodejs_compat"
     ],
@@ -10,12 +10,6 @@
         "binding": "ASSETS",
         "directory": ".open-next/assets"
     },
-    "services": [
-        {
-            "binding": "WORKER_SELF_REFERENCE",
-            "service": "davaleba-34"
-        }
-    ],
     "images": {
         "binding": "IMAGES"
     }
