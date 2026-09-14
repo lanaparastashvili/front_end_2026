@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-black text-neutral-100 transition-colors duration-200;
+  }
+  
+  html.light body {
+    @apply bg-neutral-50 text-neutral-900;
+  }
+}
+
+/* Custom Instagram styles & scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(150, 150, 150, 0.3);
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(150, 150, 150, 0.5);
+}
+
+.story-gradient {
+  background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+}
+
+.story-gradient-seen {
+  background: #404040;
+}
+
+html.light .story-gradient-seen {
+  background: #d4d4d4;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.font-logo {
+  font-family: 'Instagram Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  letter-spacing: -0.5px;
+}
+
+/* Image filter presets */
+.filter-normal { filter: none; }
+.filter-clarendon { filter: contrast(120%) saturate(125%); }
+.filter-gingham { filter: brightness(105%) hue-rotate(-10deg); }
+.filter-juno { filter: contrast(115%) saturate(140%) sepia(20%); }
+.filter-lark { filter: contrast(90%) brightness(110%) saturate(110%); }
+.filter-moon { filter: grayscale(100%) contrast(110%) brightness(110%); }
+.filter-reyes { filter: sepia(22%) brightness(110%) contrast(85%) saturate(75%); }
+.filter-slumber { filter: saturate(66%) brightness(105%) sepia(35%); }
+.filter-crema { filter: sepia(50%) contrast(125%) brightness(115%) saturate(90%); }
+.filter-aden { filter: sepia(20%) brightness(115%) saturate(140%); }
