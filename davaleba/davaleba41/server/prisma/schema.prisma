@@ -1,0 +1,22 @@
+// Prisma Schema
+// Defaults to SQLite for immediate, zero-config local development.
+// To deploy with PostgreSQL (e.g. Render Postgres, Supabase, Neon):
+// Change provider to "postgresql" and set DATABASE_URL in Render environment variables.
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id        String   @id @default(uuid())
+  email     String   @unique
+  name      String?
+  password  String
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
